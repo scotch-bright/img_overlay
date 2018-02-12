@@ -13,7 +13,7 @@ module ImgOverlay
     
     if image_path.nil?
 
-      return nil
+      return false
     
     else
       

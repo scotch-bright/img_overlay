@@ -22,10 +22,10 @@ module ImgOverlay
           url: url,
           path: otuput  
         )
-        if id.download!.nil?
-          return nil
-        else
+        if id.download!
           return otuput
+        else
+          return nil
         end
       end
 

@@ -12,7 +12,7 @@ See how the title "The smartest way to manage your data" is on some image that i
 
 ## Dependencies
 
-The gem depends on ImageMagic to be installed on your computer. It just shells out and runs ImageMagic commands.
+The gem depends on **ImageMagic** to be installed on your computer. It just shells out and runs ImageMagic commands.
 
 ## Installation
 
@@ -64,6 +64,10 @@ success = make_image_with_overlay(
 ```
 
 That's it. It all works, you will get a true or a false.
+
+#### Fixed Bug
+
+There was a bug in version 0.1.0 where it would not reuturn false if it failed to make the image. Fixed that bug with an update to version 0.1.1
 
 ## Testing
 
