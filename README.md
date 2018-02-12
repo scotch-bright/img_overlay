@@ -43,6 +43,10 @@ To use this, you just have to specify all the info in the form of a hash. There 
 ### Example
 
 ```ruby
+require 'img_overlay'
+
+include ImgOverlay
+
 success = make_image_with_overlay(
     input: {
       url: "http://craftypioneer.com/wp-content/uploads/2016/01/businessMeeting.jpg" 
